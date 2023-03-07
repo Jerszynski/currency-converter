@@ -4,7 +4,39 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Currency-Converter</title>
   </head>
-  <body></body>
+  <body class="body">
+    <div class="mainContainer">
+      <form action="" class="form">
+        <fieldset class="form__fieldset">
+          <!-- <legend class="form__legend">cos cos</legend>-->
+          <p>cos</p>
+          <div class="form__dataSelectContainer">
+            <ul class="form__list">
+              <li>
+                <label for="amountField">Wpisz kwotę: </label>
+                <input type="number" name="amountField" id="amountField" />
+              </li>
+              <li>
+                <select name="chosenCurrency" id="">
+                  <option value="USD">USD</option>
+                  <option value="EURO">EURO</option>
+                  <option value="GBP">GBP</option>
+                  <option value="CHF">CHF</option>
+                </select>
+              </li>
+            </ul>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+    <div class="resultContainer">
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique,
+        atque?
+      </p>
+    </div>
+  </body>
 </html>

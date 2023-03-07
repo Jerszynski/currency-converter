@@ -1,0 +1,25 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+.body {
+  background-color: #eee;
+}
+.mainContainer {
+  background-color: #ddd;
+  margin: 50px auto;
+  max-width: 1000px;
+}
+
+.resultContainer {
+  background-color: #ddd;
+  margin: 50px auto;
+  max-width: 1000px;
+  padding: 20px;
+}
