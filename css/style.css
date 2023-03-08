@@ -17,6 +17,10 @@ html {
   max-width: 1000px;
 }
 
+.mainContainer__requiredInfo {
+  margin: 0 auto;
+}
+
 .resultContainer {
   background-color: #ddd;
   margin: 50px auto;

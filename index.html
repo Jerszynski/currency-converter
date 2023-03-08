@@ -11,26 +11,38 @@
     <div class="mainContainer">
       <form action="" class="form">
         <fieldset class="form__fieldset">
-          <!-- <legend class="form__legend">cos cos</legend>-->
-          <p>cos</p>
+          <header class="form__header">cos cos</header>
           <div class="form__dataSelectContainer">
             <ul class="form__list">
-              <li>
-                <label for="amountField">Wpisz kwotę: </label>
-                <input type="number" name="amountField" id="amountField" />
+              <li class="form__item">
+                <label for="amountField " class="form__itemLabel"
+                  >Wpisz kwotę*:
+                </label>
+                <input
+                  type="number"
+                  name="amountField"
+                  id="amountField"
+                  class="form__itemInput"
+                />
               </li>
-              <li>
-                <select name="chosenCurrency" id="">
-                  <option value="USD">USD</option>
-                  <option value="EURO">EURO</option>
-                  <option value="GBP">GBP</option>
-                  <option value="CHF">CHF</option>
-                </select>
+              <li class="form__item">
+                <label for="">
+                  Wybierz walutę*:
+                  <select name="chosenCurrency" id="">
+                    <option value="USD">USD</option>
+                    <option value="EURO">EURO</option>
+                    <option value="GBP">GBP</option>
+                    <option value="CHF">CHF</option>
+                  </select>
+                </label>
               </li>
             </ul>
           </div>
         </fieldset>
       </form>
+    </div>
+    <div class="mainContainer__requiredInfo">
+      <p class="requiredInfo__paragraph">* - pola wymagane</p>
     </div>
     <div class="resultContainer">
       <p>
