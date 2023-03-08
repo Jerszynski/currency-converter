@@ -9,8 +9,11 @@ html {
 }
 
 .body {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
   background-image: url("../images/currency-converter-background.jpg");
 }
+
 .mainContainer {
   background-color: rgba(255, 255, 255, 0.5);
   margin: 50px auto;
@@ -27,6 +30,7 @@ html {
 
 .form__header {
   text-align: center;
+  font-weight: 700;
 }
 
 .mainContainer__requiredInfo {
