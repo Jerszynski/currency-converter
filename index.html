@@ -11,14 +11,16 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/form.css" />
     <title>Currency-Converter</title>
   </head>
   <body class="body">
     <div class="mainContainer">
       <form action="" class="form">
         <fieldset class="form__fieldset">
-          <header class="form__header">cos cos</header>
-          <div class="form__dataSelectContainer">
+          
+            <header class="form__header">cos cos</header>
+
             <ul class="form__list">
               <li class="form__item">
                 <label for="amountField " class="form__itemLabel"
@@ -32,15 +34,19 @@
                 />
               </li>
               <li class="form__item">
-                <label for="">
+                <label for="selectCurrency" class="form__itemLabel">
                   Wybierz walutę*:
-                  <select name="chosenCurrency" id="">
-                    <option value="USD">USD</option>
-                    <option value="EURO">EURO</option>
-                    <option value="GBP">GBP</option>
-                    <option value="CHF">CHF</option>
-                  </select>
                 </label>
+                <select
+                  name="chosenCurrency"
+                  id="selectCurrency"
+                  class="form__select"
+                >
+                  <option value="USD">USD</option>
+                  <option value="EURO">EURO</option>
+                  <option value="GBP">GBP</option>
+                  <option value="CHF">CHF</option>
+                </select>
               </li>
             </ul>
           </div>
