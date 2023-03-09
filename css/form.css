@@ -23,16 +23,16 @@
   list-style: none;
 }
 
-.form__itemLabel {
+.form__label {
   font-weight: 700;
   margin: 0 20px;
 }
 
-.form__itemInput {
+.form__input {
   padding: 10px;
   text-align: center;
 }
 
-.form__select {
+.form__currecnySelect {
   padding: 10px;
 }
