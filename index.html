@@ -31,7 +31,7 @@
                 type="number"
                 name="amountField"
                 id="amountField"
-                class="form__input"
+                class="form__input js-formInput"
                 step="any"
                 required
               />
@@ -43,7 +43,7 @@
               <select
                 name="chosenCurrency"
                 id="selectCurrency"
-                class="form__currecnySelect"
+                class="form__currecnySelect js-formCurrencySelect"
                 required
               >
                 <option value="USD" selected>USD</option>
@@ -53,7 +53,7 @@
               </select>
             </li>
           </ul>
-          <button class="form__button">PRZELICZ</button>
+          <button class="form__button js-formButton">PRZELICZ</button>
         </fieldset>
       </form>
     </div>
@@ -62,7 +62,7 @@
     </div>
     <div class="resultContainer">
       <p class="resultContainer__paragraph">Wynik:</p>
-      <output class="resultContainer__outputResult">N/A</output>
+      <output class="resultContainer__outputResult js-resultOutput">N/A</output>
     </div>
   </body>
 </html>
