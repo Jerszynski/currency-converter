@@ -14,11 +14,14 @@
     <link rel="stylesheet" href="css/form.css" />
     <link rel="stylesheet" href="css/containers.css" />
     <link rel="stylesheet" href="css/button.css" />
+
+    <script defer src="javascript/script.js"></script>
+
     <title>Currency-Converter</title>
   </head>
   <body class="body">
     <div class="mainContainer">
-      <form action="" class="form">
+      <form action="" class="form js-form">
         <fieldset class="form__fieldset">
           <header class="form__header">Przelicznik Polskiego Złotego</header>
 
@@ -43,7 +46,7 @@
               <select
                 name="chosenCurrency"
                 id="selectCurrency"
-                class="form__currecnySelect js-formCurrencySelect"
+                class="form__currecnySelect js-formCurrency"
                 required
               >
                 <option value="USD" selected>USD</option>
@@ -53,7 +56,7 @@
               </select>
             </li>
           </ul>
-          <button class="form__button js-formButton">PRZELICZ</button>
+          <button class="form__button">PRZELICZ</button>
         </fieldset>
       </form>
     </div>
@@ -62,7 +65,7 @@
     </div>
     <div class="resultContainer">
       <p class="resultContainer__paragraph">Wynik:</p>
-      <output class="resultContainer__outputResult js-resultOutput">N/A</output>
+      <p class="resultContainer__result js-result">N/A</p>
     </div>
   </body>
 </html>
