@@ -30,6 +30,7 @@
 
 .form__itemInput {
   padding: 10px;
+  text-align: center;
 }
 
 .form__select {
