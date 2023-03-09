@@ -14,14 +14,17 @@
 
       case "GBP":
         return inputValue / gbp;
+
       case "CHF":
         return inputValue / chf;
     }
   };
+  const resultElement = document.querySelector(".js-result");
+  const clearForm = () => {
+    resultElement.innerHTML = "N/A";
+  };
 
   const updateResult = (result, inputValue, currency) => {
-    const resultElement = document.querySelector(".js-result");
-
     resultElement.innerHTML = `${inputValue} PLN = ${result.toFixed(
       2
     )} ${currency}`;
@@ -31,10 +34,10 @@
     event.preventDefault();
 
     const inputElement = document.querySelector(".js-formInput");
-    const CurencyElement = document.querySelector(".js-formCurrency");
+    const curencyElement = document.querySelector(".js-formCurrency");
 
     const inputValue = +inputElement.value;
-    const currency = CurencyElement.value;
+    const currency = curencyElement.value;
 
     const result = calculateCurrency(inputValue, currency);
 
@@ -42,6 +45,9 @@
   };
 
   const init = () => {
+    const clearButtonElement = document.querySelector(".js-reset");
+    clearButtonElement.addEventListener("click", clearForm);
+
     const formElement = document.querySelector(".js-form");
     formElement.addEventListener("submit", onFormSubmit);
   };

@@ -31,8 +31,12 @@
 .form__input {
   padding: 10px;
   text-align: center;
+  border: none;
+  border-radius: 12px;
 }
 
 .form__currecnySelect {
   padding: 10px;
+  border: none;
+  border-radius: 12px;
 }
