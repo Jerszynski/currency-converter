@@ -19,7 +19,7 @@
       <form action="" class="form">
         <fieldset class="form__fieldset">
           
-            <header class="form__header">cos cos</header>
+            <header class="form__header">Przelicznik Polskiego Złotego</header>
 
             <ul class="form__list">
               <li class="form__item">
@@ -31,6 +31,8 @@
                   name="amountField"
                   id="amountField"
                   class="form__itemInput"
+                  step="any"
+                  required
                 />
               </li>
               <li class="form__item">
@@ -41,6 +43,7 @@
                   name="chosenCurrency"
                   id="selectCurrency"
                   class="form__select"
+                  required
                 >
                   <option value="USD">USD</option>
                   <option value="EURO">EURO</option>
