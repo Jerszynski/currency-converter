@@ -37,6 +37,7 @@
                 id="amountField"
                 class="form__input js-formInput"
                 step="any"
+                min="0"
                 required
               />
             </li>
@@ -50,8 +51,7 @@
                 class="form__currecnySelect js-formCurrency"
                 required
               >
-                <option value="" selected>Select</option>
-                <option value="USD">USD</option>
+                <option value="USD" selected>USD</option>
                 <option value="EURO">EURO</option>
                 <option value="GBP">GBP</option>
                 <option value="CHF">CHF</option>
@@ -67,14 +67,15 @@
             </button>
           </div>
         </fieldset>
+        <p class="requiredInfo__paragraph">* - pola wymagane</p>
       </form>
     </div>
-    <div class="requiredInfo">
-      <p class="requiredInfo__paragraph">* - pola wymagane</p>
-    </div>
+
     <div class="resultContainer">
-      <p class="resultContainer__paragraph">Wynik:</p>
-      <p class="resultContainer__paragraph js-result">N/A</p>
+      <p class="resultContainer__paragraph">
+        Wynik:
+        <span class="resultContainer__paragraph js-result">N/A</span>
+      </p>
     </div>
   </body>
 </html>
