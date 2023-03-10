@@ -29,6 +29,7 @@
 }
 
 .form__input {
+  font-family: "Roboto", sans-serif;
   padding: 10px;
   text-align: center;
   border: none;
@@ -37,6 +38,7 @@
 }
 
 .form__currecnySelect {
+  font-family: "Roboto", sans-serif;
   padding: 10px;
   border: none;
   border-radius: 12px;
