@@ -1,7 +1,22 @@
-@media (max-width: 550px) {
+@media (max-width: 700px) {
   .body {
     background-image: url(../images/currency-converter-background-smartphones-long.jpg);
     background-size: auto;
+  }
+
+  .form__fieldset {
+    height: 300px;
+  }
+
+  .form__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+  }
+
+  .form__input {
+    width: 120px;
   }
 }
 
