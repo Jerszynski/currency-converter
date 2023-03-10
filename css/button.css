@@ -16,6 +16,6 @@
   width: 100px;
 }
 
-.form__button:active {
+.buttonContainer__button:active {
   transform: scale(0.98);
 }

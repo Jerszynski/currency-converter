@@ -7,7 +7,7 @@
   border-radius: 12px;
 }
 
-.mainContainer__requiredInfo {
+.requiredInfo {
   margin: 0 auto;
   max-width: 800px;
 }
@@ -32,9 +32,5 @@
 }
 
 .resultContainer__paragraph {
-  margin: 0 20px;
-}
-
-.resultContainer__result {
   margin: 0 20px;
 }

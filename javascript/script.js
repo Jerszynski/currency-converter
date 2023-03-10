@@ -19,6 +19,7 @@
         return inputValue / chf;
     }
   };
+
   const resultElement = document.querySelector(".js-result");
   const clearForm = () => {
     resultElement.innerHTML = "N/A";
