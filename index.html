@@ -39,11 +39,12 @@
                 >Wpisz kwotę*:
               </label>
               <input
+                placeholder="Wpisz kwotę w zł"
                 type="number"
                 name="amountField"
                 id="amountField"
                 class="form__input js-formInput"
-                step="any"
+                step="0.01"
                 min="0"
                 required
               />
@@ -58,7 +59,8 @@
                 class="form__currecnySelect js-formCurrency"
                 required
               >
-                <option value="USD" selected>USD</option>
+                <option value="">Select</option>
+                <option value="USD">USD</option>
                 <option value="EURO">EURO</option>
                 <option value="GBP">GBP</option>
                 <option value="CHF">CHF</option>
