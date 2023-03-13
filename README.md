@@ -12,9 +12,9 @@ https://jerszynski.github.io/currency-converter/
 
 <br />
 
-1. ![html](https://img.icons8.com/color/48/null/html-5--v1.png) ![css](https://img.icons8.com/color/48/null/css3.png) ![js](https://img.icons8.com/color/48/null/javascript--v1.png) <br>
-2. BEM
-3. Flex box
+![html](https://img.icons8.com/color/48/null/html-5--v1.png) ![css](https://img.icons8.com/color/48/null/css3.png) ![js](https://img.icons8.com/color/48/null/javascript--v1.png) <br>
+BEM<br>
+Flex box<br>
 
 ---
 
