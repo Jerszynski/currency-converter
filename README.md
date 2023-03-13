@@ -4,6 +4,8 @@
 
 ## DEMO
 
+https://jerszynski.github.io/currency-converter/
+
 ---
 
 #### Languages used in project:
