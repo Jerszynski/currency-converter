@@ -14,7 +14,7 @@ https://jerszynski.github.io/currency-converter/
 - BEM Convention
 - CSS
   - Flex box
-- JavaScript
+- JavaScript ( ES6+ )
 
 ---
 
